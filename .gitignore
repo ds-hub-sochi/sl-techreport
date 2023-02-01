@@ -296,4 +296,4 @@ mmdeploy/csrc/mmdeploy/preprocess/elena/cpu_kernel/*
 mmdeploy/csrc/mmdeploy/preprocess/elena/cuda_kernel/*
 
 # vscode
-.vscode
+.vscode/
