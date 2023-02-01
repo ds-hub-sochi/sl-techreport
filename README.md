@@ -52,4 +52,4 @@ References: https://mmaction2.readthedocs.io/en/dev-1.x/user_guides/4_train_test
 cd mmdeploy
 python torch2onnx.py [DEPLOY_CONFIG] [MODEL_CONFIG] [CHECKPOINT] [VIDEO.mp4] [OPTIONAL_PY_ARGS]
 ```
-References: References: https://mmaction2.readthedocs.io/en/dev-1.x/user_guides/4_train_test.html
+References: https://mmaction2.readthedocs.io/en/dev-1.x/user_guides/4_train_test.html
