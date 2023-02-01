@@ -1,141 +1,296 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-**/*.pyc
+mmaction2/__pycache__/
+mmaction2/*.py[cod]
+mmaction2/*$py.class
+mmaction2/**/*.pyc
 
 # C extensions
-*.so
+mmaction2/*.so
 
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+mmaction2/.Python
+mmaction2/build/
+mmaction2/develop-eggs/
+mmaction2/dist/
+mmaction2/downloads/
+mmaction2/eggs/
+mmaction2/.eggs/
+mmaction2/lib/
+mmaction2/lib64/
+mmaction2/parts/
+mmaction2/sdist/
+mmaction2/var/
+mmaction2/wheels/
+mmaction2/*.egg-info/
+mmaction2/.installed.cfg
+mmaction2/*.egg
+mmaction2/MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+mmaction2/*.manifest
+mmaction2/*.spec
 
 # Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+mmaction2/pip-log.txt
+mmaction2/pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+mmaction2/htmlcov/
+mmaction2/.tox/
+mmaction2/.coverage
+mmaction2/.coverage.*
+mmaction2/.cache
+mmaction2/nosetests.xml
+mmaction2/coverage.xml
+mmaction2/*.cover
+mmaction2/.hypothesis/
+mmaction2/.pytest_cache/
 
 # Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+mmaction2/*.mo
+mmaction2/*.pot
+mmaction2/# Django stuff:
+mmaction2/*.log
+mmaction2/local_settings.py
+mmaction2/db.sqlite3
 
 # Flask stuff:
-instance/
-.webassets-cache
+mmaction2/instance/
+mmaction2/.webassets-cache
 
 # Scrapy stuff:
-.scrapy
+mmaction2/.scrapy
 
 # Sphinx documentation
-docs/_build/
+mmaction2/docs/_build/
 
 # PyBuilder
-target/
+mmaction2/target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+mmaction2/.ipynb_checkpoints
 
 # pyenv
-.python-version
+mmaction2/.python-version
 
 # celery beat schedule file
-celerybeat-schedule
+mmaction2/celerybeat-schedule
 
 # SageMath parsed files
-*.sage.py
+mmaction2/*.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+mmaction2/.env
+mmaction2/.venv
+mmaction2/env/
+mmaction2/venv/
+mmaction2/ENV/
+mmaction2/env.bak/
+mmaction2/venv.bak/
 
 # Spyder project settings
-.spyderproject
-.spyproject
+mmaction2/.spyderproject
+mmaction2/.spyproject
 
 # Rope project settings
-.ropeproject
+mmaction2/.ropeproject
 
 # mkdocs documentation
-/site
-
 # mypy
-.mypy_cache/
+mmaction2/.mypy_cache/
 
 # custom
-/data
-.vscode
-.idea
-*.pkl
-*.pkl.json
-*.log.json
-benchlist.txt
-work_dirs/
-.DS_Store
+mmaction2/data
+mmaction2/.vscode
+mmaction2/.idea
+mmaction2/*.pkl
+mmaction2/*.pkl.json
+mmaction2/*.log.json
+mmaction2/benchlist.txt
+mmaction2/work_dirs/
+mmaction2/.DS_Store
+# Pytorch
+mmaction2/*.pth
+# Profile
+mmaction2/*.prof
+# lmdb
+mmaction2/*.mdb
+# unignore some data file in tests/data
+mmaction2/!tests/data/**/*.pkl
+mmaction2/!tests/data/**/*.pkl.json
+mmaction2/!tests/data/**/*.log.json
+mmaction2/!tests/data/**/*.pth
+# avoid soft links created by MIM
+mmaction2/mmaction/configs/*
+mmaction2/mmaction/tools/*
+mmaction2/*.ipynb
+# unignore ipython notebook files in demo
+mmaction2/!demo/*.ipynb
+mmaction2/mmaction/.mim
+
+# Byte-compiled / optimized / DLL files
+mmdeploy/__pycache__/
+mmdeploy/*.py[cod]
+mmdeploy/*$py.class
+
+# C extensions
+mmdeploy/*.so
+mmdeploy/onnx2ncnn
+mmdeploy/mmdeploy_onnx2ncnn
+
+# Java classes
+mmdeploy/*.class
+
+# Distribution / packaging
+mmdeploy/.Python
+mmdeploy/build/
+mmdeploy/develop-eggs/
+mmdeploy/dist/
+mmdeploy/downloads/
+mmdeploy/eggs/
+mmdeploy/.eggs/
+mmdeploy/lib/
+mmdeploy/lib64/
+mmdeploy/parts/
+mmdeploy/sdist/
+mmdeploy/var/
+mmdeploy/wheels/
+mmdeploy/*.egg-info/
+mmdeploy/.installed.cfg
+mmdeploy/*.egg
+mmdeploy/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+mmdeploy/*.manifest
+mmdeploy/*.spec
+
+# Installer logs
+mmdeploy/pip-log.txt
+mmdeploy/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+mmdeploy/htmlcov/
+mmdeploy/.tox/
+mmdeploy/.coverage
+mmdeploy/.coverage.*
+mmdeploy/.cache
+mmdeploy/nosetests.xml
+mmdeploy/coverage.xml
+mmdeploy/*.cover
+mmdeploy/.hypothesis/
+mmdeploy/.pytest_cache/
+
+# Translations
+mmdeploy/*.mo
+mmdeploy/*.pot
+
+# Django stuff:
+mmdeploy/*.log
+mmdeploy/local_settings.py
+mmdeploy/db.sqlite3
+
+# Flask stuff:
+mmdeploy/instance/
+mmdeploy/.webassets-cache
+
+# Scrapy stuff:
+mmdeploy/.scrapy
+
+# Sphinx documentation
+mmdeploy/docs/en/_build/
+mmdeploy/docs/zh_cn/_build/
+mmdeploy/**/src/pytorch-sphinx-theme/
+
+# PyBuilder
+mmdeploy/target/
+
+# Jupyter Notebook
+mmdeploy/.ipynb_checkpoints
+
+# pyenv
+mmdeploy/.python-version
+
+# celery beat schedule file
+mmdeploy/celerybeat-schedule
+
+# SageMath parsed files
+mmdeploy/*.sage.py
+
+# Environments
+mmdeploy/.env
+mmdeploy/.venv
+mmdeploy/env/
+mmdeploy/venv/
+mmdeploy/ENV/
+mmdeploy/env.bak/
+mmdeploy/venv.bak/
+mmdeploy/venv*
+
+# Spyder project settings
+mmdeploy/.spyderproject
+mmdeploy/.spyproject
+
+# Rope project settings
+mmdeploy/.ropeproject
+
+# mkdocs documentation
+mmdeploy//site
+
+# mypy
+mmdeploy/.mypy_cache/
+mmdeploy/data/
+mmdeploy/data
+mmdeploy/.vscode
+mmdeploy/.idea
+mmdeploy/.DS_Store
+
+# custom
+mmdeploy/*.pkl
+mmdeploy/*.pkl.json
+mmdeploy/*.log.json
+mmdeploy/work_dirs
+mmdeploy/work_dirs/
 
 # Pytorch
-*.pth
+mmdeploy/*.pth
+mmdeploy/*.py~
+mmdeploy/*.sh~
 
-# Profile
-*.prof
+#clion's build directory
+mmdeploy//cmake-build-debug*
+mmdeploy//cmake-build-release
 
-# lmdb
-*.mdb
+# c#
+mmdeploy/.vs/
+mmdeploy/obj/
+mmdeploy/bin/
 
-# unignore some data file in tests/data
-!tests/data/**/*.pkl
-!tests/data/**/*.pkl.json
-!tests/data/**/*.log.json
-!tests/data/**/*.pth
+# install directory
+mmdeploy//install
 
-# avoid soft links created by MIM
-mmaction/configs/*
-mmaction/tools/*
+# the generated header files
+mmdeploy//tests/test_csrc/test_define.h
+mmdeploy/!docs/zh_cn/build
+mmdeploy/!docs/en/build
+mmdeploy/cnn
+mmdeploy/mmdeploy/backend/ncnn/onnx2ncnn
+mmdeploy//mmdeploy-*
 
-*.ipynb
+# OCR dicts
+mmdeploy/dicts
 
-# unignore ipython notebook files in demo
-!demo/*.ipynb
-mmaction/.mim
+# ascend
+mmdeploy/fusion_result.json
+
+# snpe
+mmdeploy/grpc-cpp-plugin
+mmdeploy/service/snpe/grpc_cpp_plugin
+
+# elena-code
+mmdeploy/csrc/mmdeploy/preprocess/elena/json
+mmdeploy/csrc/mmdeploy/preprocess/elena/cpu_kernel/*
+mmdeploy/csrc/mmdeploy/preprocess/elena/cuda_kernel/*
