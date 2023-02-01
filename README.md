@@ -3,8 +3,8 @@
 ## Installation MMaction2 dev-1.x
 
 Create new environment:
-conda create -n mmaction2dev python=3.9
-conda activate mmaction2dev
+>conda create -n mmaction2dev python=3.9
+>conda activate mmaction2dev
 
 ## Install PyTorch:
 conda install pytorch=={pytorch_version} torchvision=={torchvision_version} cudatoolkit={cudatoolkit_version} -c pytorch -c conda-forge
