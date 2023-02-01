@@ -1,0 +1,11 @@
+aenum
+grpcio
+matplotlib
+mmengine
+multiprocess
+numpy
+onnx>=1.8.0
+prettytable
+protobuf<=3.20.1
+six
+terminaltables
