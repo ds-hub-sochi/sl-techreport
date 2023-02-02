@@ -2,7 +2,7 @@
 
 ### Introduction
 The main approach in our work is to use sequential finetuning on various language datasets
-![alt text] https://imgur.com/a/KxWk9qT
+![alt text](https://imgur.com/a/KxWk9qT)
 ### Install MMaction2 dev-1.x
 
 Create new environment:
