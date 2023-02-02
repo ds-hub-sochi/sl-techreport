@@ -4,6 +4,11 @@
 The main approach in our work is to use sequential finetuning on various language datasets
 ### Finetuning sequential
 ![alt text](https://i.imgur.com/DkgCqpV.png)
+
+### Datasets
+1) WLASL - https://dxli94.github.io/WLASL/
+2) AUTSL http://cvml.ankara.edu.tr/datasets/
+3) RSL - comming soon
 ### Install MMaction2 dev-1.x
 
 Create new environment:
