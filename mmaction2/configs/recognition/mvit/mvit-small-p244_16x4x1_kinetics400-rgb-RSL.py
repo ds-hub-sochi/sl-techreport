@@ -25,11 +25,12 @@ model = dict(
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = '/home/jovyan/people/Murtazin/rsl_data/cuts_zero_converted'
-data_root_val = '/home/jovyan/people/Murtazin/rsl_data/cuts_zero_converted'
-ann_file_train = '/home/jovyan/people/Murtazin/rsl_data/signer_stratify_v4/train_RSL.csv'
-ann_file_val = '/home/jovyan/people/Murtazin/rsl_data/signer_stratify_v4/val_RSL.csv'
-ann_file_test = '/home/jovyan/people/Murtazin/rsl_data/signer_stratify_v4/val_RSL.csv'
+data_root = 'path/to/video'
+data_root_val = 'path/to/video'
+ann_file_train = 'path/to/train.csv'
+ann_file_val = 'path/to/val.csv'
+ann_file_test = 'path/to/val.csv'
+load_from = 'path/to/model.pth'
 
 file_client_args = dict(io_backend='disk')
 train_pipeline = [

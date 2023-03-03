@@ -25,13 +25,12 @@ model = dict(
 
 # dataset settings
 dataset_type = 'VideoDataset'
-data_root = '/home/jovyan/datasets/AUTSL/train/decompressed/train'
-data_root_val = '/home/jovyan/datasets/AUTSL/val/decompressed/val'
-data_root_test = '/home/jovyan/datasets/AUTSL/test/decompressed/test'
-ann_file_train = '/home/jovyan/datasets/AUTSL/train.csv'
-ann_file_val = '/home/jovyan/datasets/AUTSL/val.csv'
-ann_file_test = '/home/jovyan/datasets/AUTSL/test.csv'
-load_from = '/home/jovyan/people/Murtazin/mmaction2/work_dirs/mvit-small-p244_64x1x1_kinetics400-rgb/best_acc/top1_epoch_180.pth'
+data_root = 'path/to/video'
+data_root_val = 'path/to/video'
+ann_file_train = 'path/to/train.csv'
+ann_file_val = 'path/to/val.csv'
+ann_file_test = 'path/to/val.csv'
+load_from = 'path/to/model.pth'
 
 file_client_args = dict(io_backend='disk')
 train_pipeline = [
