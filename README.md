@@ -28,7 +28,8 @@ mim install mmengine 'mmcv>=2.0.0rc1'
 ```
 ### Install MMAction2
 Please note we use dev-1.x branch
-```cd mmaction2
+```
+cd mmaction2
 pip install -v -e .
 pip install -r requirements.txt
 ```
