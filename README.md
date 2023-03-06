@@ -26,7 +26,13 @@ conda install pytorch=={pytorch_version} torchvision=={torchvision_version} cuda
 pip install -U openmim
 mim install mmengine 'mmcv>=2.0.0rc1'
 ```
-### Install MMAction2 and dependencies
+### Install MMAction2
+Please note we use dev-1.x branch
+cd mmaction2
+pip install -v -e .
+pip install -r requirements.txt
+
+### Install MMDeploy and dependencies
 ```
 # install MMDeploy
 wget https://github.com/open-mmlab/mmdeploy/releases/download/v1.0.0rc1/mmdeploy-1.0.0rc1-linux-x86_64-onnxruntime1.8.1.tar.gz
