@@ -13,13 +13,14 @@ The main approach in our work is to use sequential finetuning on various languag
 
 Create new environment:
 ```
-conda create -n mmaction2dev python=3.9
+conda create -n mmaction2dev python=3.8
 conda activate mmaction2dev
 ```
 
 ### Install PyTorch:
 ```
 conda install pytorch=={pytorch_version} torchvision=={torchvision_version} cudatoolkit={cudatoolkit_version} -c pytorch -c conda-forge
+№We use torch=1.10.1 CUDA=11.1
 ```
 ### Install MMEngine
 ```
