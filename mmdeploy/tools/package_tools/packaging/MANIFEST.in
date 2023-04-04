@@ -1,3 +1,0 @@
-include mmdeploy_python/*.so
-include mmdeploy_python/*.dll
-include mmdeploy_python/*.pyd
