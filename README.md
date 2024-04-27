@@ -2,8 +2,7 @@
 # Russian Sign Language Classification Report
 ## Introduction
 There is a training procedure and preparing for deployment of the model from [our tech report](https://arxiv.org/abs/2302.07693).
-We will release model checkpoints later.
-
+Checkpoints in .pth format - https://sc.link/n1O4B
 ## Finetuning procedure
 ![alt text](https://i.imgur.com/DkgCqpV.png)
 
